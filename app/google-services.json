@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "264306678194",
+    "firebase_url": "https://aulafirebase-7f37a.firebaseio.com",
+    "project_id": "aulafirebase-7f37a",
+    "storage_bucket": "aulafirebase-7f37a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264306678194:android:945e28f489831a35",
+        "android_client_info": {
+          "package_name": "com.darkclawstudio.aulafirbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264306678194-cu9ifs88cti5v5td1gv57quuh11hkvk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0j-BecV36J-JmbfqnGHhOHXZpJw4n5As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

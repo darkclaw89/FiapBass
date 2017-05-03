@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_disabled"
+    android:orientation="vertical"
+    android:padding="?android:attr/dialogPreferredPadding"
+    >
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgItemImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Nome do Produto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtNome"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Quantidade"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/edtQuantidade"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="40dp"
+        android:text="Adicionar"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnUpdate"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/btnUpdate"
+        android:text="Cancelar"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imgItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+</RelativeLayout>
